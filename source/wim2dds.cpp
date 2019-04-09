@@ -35,7 +35,7 @@ int main(int argc, char* argv[])
 {
 
 	if (argc != 2) {
-		printf("Usage: wim2dds <input> \n");
+		std::cout << "Usage wim2dds <input>" << std::endl;
 		return 1;
 	}
 
@@ -43,7 +43,7 @@ int main(int argc, char* argv[])
 	std::ifstream pFile(argv[1], std::ifstream::binary);
 
 	if (!pFile)
-		printf("ERROR: Could not open %s!", argv[1]);
+		std::cout << "ERROR: Could not open " << argv[1] << "!" << std::endl;
 
 	if (pFile)
 	{
