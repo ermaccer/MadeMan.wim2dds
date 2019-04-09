@@ -1,6 +1,8 @@
 # wim2dds
 Convert Windows and XBOX texture files to DDS.
 
+Not all XBOX files were tested!
+
 # Usage
 wim2dds input
 
